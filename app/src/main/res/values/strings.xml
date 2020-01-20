@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Reddit Client</string>
+    <string name="hours">H. ago</string>
+</resources>

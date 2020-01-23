@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Reddit Client</string>
-    <string name="hours">H. ago</string>
+    <string name="hours"> h. ago</string>
+    <string name="save_to_gallery">save to gallery</string>
 </resources>

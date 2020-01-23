@@ -1,6 +1,6 @@
 package com.example.redditclient.network;
 
-import com.example.redditclient.Model.Data;
+import com.example.redditclient.model.Data;
 import com.google.gson.annotations.SerializedName;
 
 public class FeedResponse {

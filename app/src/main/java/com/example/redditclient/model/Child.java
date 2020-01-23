@@ -1,13 +1,15 @@
-package com.example.redditclient.Model;
+package com.example.redditclient.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Child {
     @SerializedName("kind")
-    public String kind;
+    private String kind;
 
     @SerializedName("data")
-    public Feed data;
+    private Feed data;
 
     public String getKind() {
         return kind;
@@ -25,6 +27,7 @@ public class Child {
         this.data = data;
     }
 
+    @NotNull
     @Override
     public String toString() {
         return "Child{" +

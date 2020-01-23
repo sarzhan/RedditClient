@@ -1,20 +1,23 @@
-package com.example.redditclient.Model;
+package com.example.redditclient.model;
 
 import com.google.gson.annotations.SerializedName;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
 public class Data {
 
     @SerializedName("modhash")
-    public String modhash;
+    private String modhash;
     @SerializedName("children")
-    public List<Child> children = null;
+    private List<Child> children = null;
     @SerializedName("after")
     public String after;
     @SerializedName("before")
-    public Object before;
+    private Object before;
 
+    @NotNull
     @Override
     public String toString() {
         return "Data{" +
